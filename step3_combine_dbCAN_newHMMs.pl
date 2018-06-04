@@ -18,7 +18,7 @@ print "\nInput folder containing hmmscan results from in-house HMMs: ";
 my $folderin_newHMM=<STDIN>;
 chomp($folderin_newHMM);
 
-my $folderout="dbCANv5_CSFG";
+my $folderout="dbCANv6_CSFG";
 mkdir "$path\/$folderout";
 
 # Combine results from dbCAN and newHMMs
@@ -32,7 +32,7 @@ foreach my $dbCANfile (@dbCAN_files)
 		my $combine_file=$dbCANfile;
 		$newHMM_file=~s/dbCAN/CSFG/;
 		#$newHMM_file=~s/dbCAN/newHMM/;
-		$combine_file=~s/\.faa\.dbCAN.+$//;
+		$combine_file=~s/\.fasta\.dbCAN.+$//;
 		$combine_file=$combine_file.".csv";
 		open(dbCANfile,"<$path\/$folderin_dbCAN\/$dbCANfile") || die "Cannot open file $path\/$folderin_dbCAN\/$dbCANfile";
 		open(newHMM_file,"<$path\/$folderin_newHMM\/$newHMM_file") || die "Cannot open file $path\/$folderin_newHMM\/$newHMM_file";

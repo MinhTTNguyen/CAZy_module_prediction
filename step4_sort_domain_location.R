@@ -1,5 +1,5 @@
-path="//fs1.fungalgenomics.ca/mnguyen/Research/For_Erin/dbCAN29092017/dbCANv6_CSFG"
-folderout="//fs1.fungalgenomics.ca/mnguyen/Research/For_Erin/dbCAN29092017/dbCANv6_CSFG_domain_sorted"
+path="//fs1.fungalgenomics.ca/mnguyen/Research/For_Marcos/Dicsqu464_1/hmmscan/dbCANv6_CSFG"
+folderout="//fs1.fungalgenomics.ca/mnguyen/Research/For_Marcos/Dicsqu464_1/hmmscan/dbCANv6_CSFG_domain_sorted"
 
 setwd(path)
 files <- list.files(path=".",all.files=FALSE,full.names=FALSE,no..=TRUE)
