@@ -16,9 +16,9 @@ my $folderout=<STDIN>;
 chomp($folderout);
 =cut
 
-my $path="/home/mnguyen/Research/Albert/CAZyme/19Oct2017_dbCANv6/ANF/CE1_CSFG";
+my $path="/home/mnguyen/Research/Bacillus/CAZymes";
 my $folderin="Best_domains_nosubfamily";
-my $folderout="ANF_domain_count_nosubfamily";
+my $folderout="Bacillus_domain_count_nosubfamily";
 
 mkdir "$path/$folderout";
 

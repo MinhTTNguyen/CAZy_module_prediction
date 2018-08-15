@@ -5,8 +5,8 @@
 use strict;
 
 
-my $folderin="/home/mnguyen/Research/Albert/CAZyme/19Oct2017_dbCANv6/ANF/CE1_CSFG/ANF_domain_count_nosubfamily";
-my $fileout="/home/mnguyen/Research/Albert/CAZyme/19Oct2017_dbCANv6/ANF/CE1_CSFG/ANF_domain_count_nosubfamily.txt";
+my $folderin="/home/mnguyen/Research/Bacillus/CAZymes/Bacillus_domain_count_nosubfamily";
+my $fileout="/home/mnguyen/Research/Bacillus/CAZymes/Bacillus_domain_count_nosubfamily.txt";
 
 my %hash_cazy_families;
 my @org_list;
