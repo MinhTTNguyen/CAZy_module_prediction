@@ -10,8 +10,8 @@ print "\nInput name of folder containing output files: ";
 my $folderout=<STDIN>;
 chomp($folderout);
 =cut
-my $folderin="/home/mnguyen/Research/CFSG_sequences/CAZymes_07Oct2017/Best_domains";
-my $folderout="/home/mnguyen/Research/CFSG_sequences/CAZymes_07Oct2017/Best_domains_nosubfamily";
+my $folderin="/home/mnguyen/Research/Bacillus/CAZymes/Best_domains";
+my $folderout="/home/mnguyen/Research/Bacillus/CAZymes/Best_domains_nosubfamily";
 mkdir "$folderout";
 
 opendir(DIR,"$folderin") || die "Cannot open folder $folderin";

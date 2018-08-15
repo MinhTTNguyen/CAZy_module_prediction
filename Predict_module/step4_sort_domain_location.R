@@ -1,5 +1,5 @@
-path="//fs1.fungalgenomics.ca/mnguyen/Research/Symbiomics/AA3/AA3_2/AA3_2_manuscript/hmmscan/dbCANv6_CSFG"
-folderout="//fs1.fungalgenomics.ca/mnguyen/Research/Symbiomics/AA3/AA3_2/AA3_2_manuscript/hmmscan/dbCANv6_CSFG_domain_sorted"
+path="//fs1.fungalgenomics.ca/mnguyen/Research/Bacillus/CAZymes/dbCANv6_CSFG"
+folderout="//fs1.fungalgenomics.ca/mnguyen/Research/Bacillus/CAZymes/dbCANv6_CSFG_domain_sorted"
 
 setwd(path)
 files <- list.files(path=".",all.files=FALSE,full.names=FALSE,no..=TRUE)
